@@ -9,7 +9,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #161616;
+  background-color: #333333;
   color: #ffffff;
 }
 
@@ -35,7 +35,15 @@ button {
 }
 
 .tools {
+  display: flex;
+  justify-content: flex-end;
   background-color: #1c1e21;
+  padding: 0.5em 0;
+}
+
+.tools img {
+  margin-right: 1em;
+  cursor: pointer;
 }
 
 textarea {
