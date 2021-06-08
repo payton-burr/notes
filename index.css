@@ -34,6 +34,16 @@ button {
   margin: 1em;
 }
 
+.main {
+  background-color: #dddddd;
+  color: #000000;
+  padding: 1em;
+}
+
+.main * {
+  margin: 0;
+}
+
 .tools {
   display: flex;
   justify-content: flex-end;
@@ -55,4 +65,8 @@ textarea {
   padding: 0.5em;
   width: 100%;
   height: 20rem;
+}
+
+.hidden {
+  display: none;
 }
